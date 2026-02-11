@@ -6,6 +6,6 @@ import edu.wpi.first.wpilibj.RobotBase;
 
 public final class Main {
   public static void main(String... args) {
-    RobotBase.startRobot(KitBot::new);
+    RobotBase.startRobot(SwerveChassis::new);
   }
 }
